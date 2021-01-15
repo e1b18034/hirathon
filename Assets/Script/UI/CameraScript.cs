@@ -44,9 +44,9 @@ public class CameraScript : MonoBehaviour
                 // マウス移動がある場合
                 {
                     // Y軸回転角度に水平移動量を加算
-                    rotationY += mouseX * speedX;
+                    this.rotationY += mouseX * speedX;
                     // X軸回転角度に垂直移動量を加算
-                    rotationX = ChangeRotationX(mouseY * speedY);
+                    this.rotationX = ChangeRotationX(mouseY * speedY);
 
                     // Z軸回転角度取得
                     float rotationZ = Camera.main.transform.localEulerAngles.z;
@@ -65,9 +65,20 @@ public class CameraScript : MonoBehaviour
     {
         float resultRotationX = rotationX - addRotationX;
 
-        if(resultRotationX < minLimX || maxLimX < resultRotationX)
-        {
-            return rotationX;
+        if(resultRotationX < -360F - minLimX) {
+            resultRotationX += 360F;
+        }
+        if(resultRotationX > 360F - maxLimX) {
+            resultRotationX -= 360F;
+        }
+
+        Debug.Log(minLimX + " / " + resultRotationX + " / " + maxLimX);
+
+        if(resultRotationX < minLimX) {
+            return minLimX;
+        }
+        if(resultRotationX > maxLimX) {
+            return maxLimX;
         }
 
         return resultRotationX;
