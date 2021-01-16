@@ -10,7 +10,7 @@ public class PrefabManager
     {
         this.prefabMap = new Dictionary<string, GameObject>();
 
-        GameObject[] prefabs = Resources.LoadAll<GameObject>("360photo/Prefab/");
+        GameObject[] prefabs = Resources.LoadAll<GameObject>("360photo/Prefab/03/");
         foreach(GameObject prefab in prefabs)
         {
             this.prefabMap.Add(prefab.name, prefab);
