@@ -48,8 +48,8 @@ public class MainScript : MonoBehaviour
     void Start()
     {
         // カーソルロック(デバッグ時)
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
 
         if (this.initPrefabName.Equals(""))
         // 指定がないとき(空文字列のとき)

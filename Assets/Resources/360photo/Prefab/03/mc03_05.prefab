@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909ce2d36c9d8264cb5a37efc4e312eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextPrefabName: mc03_07
+  nextPrefabName: mc03_06
   rotateY: 141
 --- !u!1 &5174160536169309773
 GameObject:
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf25ad453bc30b14da16ff94bafcfa74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextPrefabName: mc03_06
+  nextPrefabName: mc03_05-1
   rotateY: 80
 --- !u!1001 &1205879126695050500
 PrefabInstance:
