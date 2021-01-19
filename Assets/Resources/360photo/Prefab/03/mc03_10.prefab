@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPrefabName: mc03_09
-  rotateY: 173
+  rotateY: -109
 --- !u!1 &3537890762241927477
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3537890762241927477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.74741745, z: -0, w: 0.66435474}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
@@ -140,7 +140,7 @@ Transform:
   - {fileID: 1716295774172419834}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -96.734, z: 0}
 --- !u!33 &1007988136085535786
 MeshFilter:
   m_ObjectHideFlags: 0
