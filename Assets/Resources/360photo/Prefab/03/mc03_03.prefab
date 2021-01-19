@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPrefabName: mc03_04
-  rotateY: 150
+  rotateY: -113
 --- !u!1001 &3241775018488043515
 PrefabInstance:
   m_ObjectHideFlags: 0

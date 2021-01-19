@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPrefabName: mc03_01
-  rotateY: 176
+  rotateY: -77
 --- !u!114 &483075744571975028
 MonoBehaviour:
   m_ObjectHideFlags: 0
