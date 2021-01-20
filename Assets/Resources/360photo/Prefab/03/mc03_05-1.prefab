@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 633912914984323529}
   - component: {fileID: 4567714234554861164}
   - component: {fileID: 1767434896880677542}
+  - component: {fileID: 8271739777064597893}
   m_Layer: 0
   m_Name: mc03_05-1
   m_TagString: Untagged
@@ -81,6 +82,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &8271739777064597893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254397151895622515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca562e3b6039e8649a5858ccc9ffbaef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelCourseNumber: 3
+  pointNumber: 5
+  pointName: "\u9858\u751F\u574A"
 --- !u!114 &3681652306708796368
 MonoBehaviour:
   m_ObjectHideFlags: 0
