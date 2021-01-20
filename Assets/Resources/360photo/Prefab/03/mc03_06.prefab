@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 8953334019465798978}
   - component: {fileID: 5471726555751443175}
   - component: {fileID: 7785471438650220077}
+  - component: {fileID: 1429871619432730066}
   m_Layer: 0
   m_Name: mc03_06
   m_TagString: Untagged
@@ -297,6 +298,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1429871619432730066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578074666929602552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca562e3b6039e8649a5858ccc9ffbaef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelCourseNumber: 3
+  pointNumber: 6
+  pointName: "\u53F0\u93E1\u5BFA"
 --- !u!1001 &390622239925460374
 PrefabInstance:
   m_ObjectHideFlags: 0

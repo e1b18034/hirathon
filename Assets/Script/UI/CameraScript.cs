@@ -72,8 +72,6 @@ public class CameraScript : MonoBehaviour
             resultRotationX -= 360F;
         }
 
-        Debug.Log(minLimX + " / " + resultRotationX + " / " + maxLimX);
-
         if(resultRotationX < minLimX) {
             return minLimX;
         }

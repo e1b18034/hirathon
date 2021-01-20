@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 4202646028058407823}
   - component: {fileID: 1007988136085535786}
   - component: {fileID: 3033702765021841632}
+  - component: {fileID: 9132781060201761366}
   m_Layer: 0
   m_Name: mc03_10
   m_TagString: Untagged
@@ -188,6 +189,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &9132781060201761366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537890762241927477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca562e3b6039e8649a5858ccc9ffbaef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelCourseNumber: 3
+  pointNumber: 10
+  pointName: "\u6D2A\u6C34\u7891"
 --- !u!1001 &4456440708673705490
 PrefabInstance:
   m_ObjectHideFlags: 0
